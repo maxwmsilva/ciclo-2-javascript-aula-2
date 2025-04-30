@@ -29,15 +29,16 @@ console.log("A área da parede é:", areaDaParede);
 // usuário e exibir uma mensagem de boas-vindas.
 
 // Nome e sobrenome inseridos pelo usuário
-var nome = "João";
-var sobrenome = "Silva";
+let nome = "Max";
+let sobrenome = "Willian";
 
 // Juntando os nomes com a mensagem de boas-vindas
-  
-       //seu código
 
+let boasVindas = "Olá" + " " + nome + " " + sobrenome + ", seja bem vindo a campinho digital!";
+       
 // Exibindo a mensagem no console
-console.log();
+console.log(boasVindas);
+
 
 
 //-------------------------------------------------------------------------------------------------
