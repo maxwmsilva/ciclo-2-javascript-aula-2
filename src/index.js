@@ -52,15 +52,16 @@ console.log(boasVindas);
 // considerando que todos os anos têm 365 dias.
 
 // Idade do funcionário em anos
-var idadeEmAnos = 30;
+let idadeEmAnos = 30;
 
 // Calculando anos em dias
   
-      //seu código
+      valorEmDias = (365 * idadeEmAnos);
+
 
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+console.log("O funcionário viveu aproximadamente" + " " + valorEmDias + " " + "dias");
 
 //-------------------------------------------------------------------------------------------------
 
