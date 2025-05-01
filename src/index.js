@@ -74,12 +74,11 @@ console.log("O funcionário viveu aproximadamente" + " " + valorEmDias + " " + "
 //  se o evento durou 135 minutos, você deve dizer que ele durou 2 horas e 15 minutos.
 
 // Duração total do evento em minutos
-var duracaoEmMinutos = 135;
+const duracaoEmMinutos = 135;
 
 // Calculando horas e minutos
-  
-      //seu código
-
+const converteHoras = Math.floor(duracaoEmMinutos / 60);
+const restoHoras =  duracaoEmMinutos % 60;
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log("O evento durou" + " "  + converteHoras + "horas" + " e " + restoHoras + "minutos.");
